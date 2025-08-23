@@ -106,6 +106,7 @@
     <Compile Include="Genes\ExtraGenitalia\Gene_ExtraBreasts.cs" />
     <Compile Include="Genes\ExtraGenitalia\Gene_ExtraAnus.cs" />
     <Compile Include="Genes\ExtraGenitalia\Gene_Futa.cs" />
+    <Compile Include="Genes\ExtraGenitalia\Gene_FutaFemaleOnly.cs" />
     <Compile Include="Genes\ExtraGenitalia\Gene_ExtraVagina.cs" />
     <Compile Include="Genes\ExtraGenitalia\Gene_FeaturelessChest.cs" />
     <Compile Include="Genes\ExtraGenitalia\Gene_NoBreasts.cs" />

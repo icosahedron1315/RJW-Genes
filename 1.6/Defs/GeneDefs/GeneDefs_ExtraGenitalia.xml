@@ -133,6 +133,20 @@
   </GeneDef>
 
   <GeneDef ParentName="GeneExtraGenitaliaBase">
+    <defName>rjw_genes_futa_female_only</defName>
+    <label>futanari females</label>
+    <displayCategory>rjw_genes_gender</displayCategory>
+    <description>Female Carriers grow additional male genitalia. Males are unaffected.</description>
+    <iconPath>Genes/Icons/Futa</iconPath>
+    <geneClass>RJW_Genes.Gene_Futa</geneClass>
+    <displayOrderInCategory>709</displayOrderInCategory>
+    <exclusionTags>
+      <li>PenisAmount</li>
+      <li>VaginaAmount</li>
+    </exclusionTags>
+  </GeneDef>
+
+  <GeneDef ParentName="GeneExtraGenitaliaBase">
     <defName>rjw_genes_femboy</defName>
     <label>femboy</label>
     <displayCategory>rjw_genes_gender</displayCategory>
