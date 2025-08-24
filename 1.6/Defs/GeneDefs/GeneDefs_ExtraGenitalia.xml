@@ -138,7 +138,7 @@
     <displayCategory>rjw_genes_gender</displayCategory>
     <description>Female Carriers grow additional male genitalia. Males are unaffected.</description>
     <iconPath>Genes/Icons/Futa</iconPath>
-    <geneClass>RJW_Genes.Gene_Futa</geneClass>
+    <geneClass>RJW_Genes.Gene_FutaFemaleOnly</geneClass>
     <displayOrderInCategory>709</displayOrderInCategory>
     <exclusionTags>
       <li>PenisAmount</li>
