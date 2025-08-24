@@ -46,7 +46,7 @@
       <Private>False</Private>
     </Reference>
     <Reference Include="RJW">
-      <HintPath>..\..\..\..\..\Mods\rjw\1.6\Assemblies\RJW.dll</HintPath>
+      <HintPath>..\..\..\..\rjw\1.6\Assemblies\RJW.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Rjw-Genes">
@@ -67,6 +67,14 @@
     <Compile Include="Patches\Patch_ProcessingCumbucket.cs" />
     <Compile Include="Patches\Patch_SexTicks_ChangePsyfocus.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Krafs.Rimworld.Ref">
+      <Version>1.6.4543</Version>
+    </PackageReference>
+    <PackageReference Include="Lib.Harmony">
+      <Version>2.4.1</Version>
+    </PackageReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
