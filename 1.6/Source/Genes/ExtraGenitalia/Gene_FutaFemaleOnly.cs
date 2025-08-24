@@ -11,21 +11,8 @@ namespace RJW_Genes
 
         public override void PostMake()
         {
-            if (pawn.kindDef == null) return;   //Added to catch Rimworld creating statues of pawns.
             base.PostMake();
-            
-            // Some sources add Genes before they fire, e.g. Character Editor
-            // This should harden the gene, to solve #19
-            if (IsAlreadyFuta(pawn))
-            {
-                return;
-            }
 
-            // Vaginas are only added for female pawns!
-            if (GenderUtility.IsFemale(pawn) && additional_genital == null)
-            {
-                createAndAddPenis();
-            }
         }
         
         public override void PostAdd()
